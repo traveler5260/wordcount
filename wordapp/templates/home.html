@@ -1,0 +1,19 @@
+<head><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body style="text-align:center">
+<style>
+  body{background-image:url('https://www.edplace.com/userfiles/image/Magnetic%20Plastic%20ABC%20Letters.jpg')}
+</style>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item active" aria-current="page">
+<a href="{% url 'about'%}">ABOUT</a></li>
+</ol>
+
+<form action="{%url 'result'%}"><textarea cols="40" rows=10 name="fulltext"></textarea>
+    <br>
+    <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?"><input type="submit" value="Count!"></button>
+</form>
+</body>
+
+<!--body{background-image:url('https://www.edplace.com/userfiles/image/Magnetic%20Plastic%20ABC%20Letters.jpg')}-->
